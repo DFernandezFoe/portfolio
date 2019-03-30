@@ -1,0 +1,166 @@
+body {
+  margin: 0px 48px 0px 48px;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  background: #0D0D0D;
+}
+
+main {
+  max-width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 200;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 24px;
+  color: #ffffff;
+  margin: 0px 16px;
+}
+
+h1 {
+  margin: 0px;
+  font-family: "Karla";
+  font-weight: 700;
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li{
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 5px;
+  font-size: 18px;
+  font-weight: 200;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: right;
+}
+
+/* TITLE CARD */
+
+.headcard {
+  display: block;
+  margin-top: 200px;
+  margin-left: 200px;
+  font-size: 28px;
+}
+
+.HCTop {
+  font-family: "Karla";
+  font-weight: 400;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 200px 40px 80px 40px;
+  max-width: 1334px;
+  height: 380px;
+  background-color: #0D0D0D;
+}
+
+.me {
+  display: flex;
+  color: #ffffff;
+  word-wrap: break-word;
+  width: 488px;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+/* CARDs */
+
+
+div.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: top center;
+  flex-direction: row;
+  margin: 40px;
+  max-width: 1334px;
+  height: 320px;
+  background-color: none;
+  overflow: hidden;
+}
+
+.cardimage {
+  max-width: 50%;
+  max-height: 50%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.cardimage, img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.cardcontentR {
+  width: 50%;
+  display : inline-block;
+  vertical-align : middle;
+  padding: 0;
+  margin: 0px;
+}
+
+.cardcontentL {
+  width: 50%;
+  display : inline-block;
+  vertical-align : middle;
+  padding: 0;
+  margin: 0px;
+}
+
+.CtextR {
+  display: flex;
+  color: #ffffff;
+  word-wrap: break-word;
+  width: 480px;
+  font-size: 24px;
+  font-weight: 200;
+  text-align: justify;
+  max-width: 100%;
+  margin-left: 16px;
+}
+
+.CtextL {
+  display: flex;
+  color: #ffffff;
+  word-wrap: break-word;
+  width: 488px;
+  font-size: 24px;
+  font-weight: 200;
+  text-align: justify;
+  max-width: 100%;
+  margin: 16px;
+}
+
+
+
+footer {
+  height: 50px;
+  border-top: 1px solid black;
+  margin-top: 80px;ç
+  color: #ffffff;
+  text-align: center;
+  opacity: 0.75;
+}
