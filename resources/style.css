@@ -115,11 +115,11 @@ div.cards {
 }
 
 .cardcontentR {
-  width: 50%;
+  max-width: 50%;
   display : inline-block;
   vertical-align : middle;
   padding: 0;
-  margin: 0px;
+  margin: 16px;
 }
 
 .cardcontentL {
@@ -127,7 +127,7 @@ div.cards {
   display : inline-block;
   vertical-align : middle;
   padding: 0;
-  margin: 0px;
+  margin: 16px;
 }
 
 .CtextR {
@@ -139,7 +139,6 @@ div.cards {
   font-weight: 200;
   text-align: justify;
   max-width: 100%;
-  margin-left: 16px;
 }
 
 .CtextL {
